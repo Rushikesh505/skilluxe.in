@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUXE</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav .logo {
+            display: flex;
+            align-items: center;
+        }
+        nav .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+            margin-top: 60px; /* Adjust for fixed nav */
+            animation: fadeIn 1s ease-in;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+        .hero button {
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .hero button:hover {
+            background-color: #E64A19;
+        }
+        .features {
+            background-color: #FFCCBC;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+        }
+        .features .feature {
+            max-width: 200px;
+            transition: transform 0.3s;
+        }
+        .features .feature:hover {
+            transform: scale(1.05);
+        }
+        .features .feature i {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .testimonials {
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeIn 1s ease-in;
+        }
+        .testimonials .testimonial {
+            display: inline-block;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            max-width: 250px;
+            text-align: left;
+        }
+        .testimonials .testimonial img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .testimonials .testimonial .author {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .plans {
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeIn 1s ease-in;
+        }
+        .plans h2 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .plans .plan {
+            display: inline-block;
+            background-color: #FFCCBC;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            max-width: 250px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .plans .plan:hover {
+            transform: scale(1.05);
+        }
+        .plans .plan h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .plans .plan ul {
+            list-style: none;
+            padding: 0;
+        }
+        .plans .plan ul li {
+            margin: 10px 0;
+        }
+        .plans .plan button {
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .plans .plan button:hover {
+            background-color: #E64A19;
+        }
+        footer {
+            background-color: #FFCCBC;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        footer .footer-section {
+            display: inline-block;
+            margin: 0 20px;
+            text-align: left;
+        }
+        footer .footer-section h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        footer .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer .footer-section ul li {
+            margin: 5px 0;
+        }
+        footer .footer-section ul li a {
+            color: black;
+            text-decoration: none;
+        }
+        footer .footer-section .app-links img {
+            height: 40px;
+            margin: 10px 0;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <i class="fas fa-graduation-cap" style="font-size: 100px;"></i>
+        <h1>Find your dream career with</h1>
+        <button onclick="scrollToPlans()">Get started</button>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <i class="fas fa-briefcase"></i>
+            <h3>Professional career advice</h3>
+            <p>Unlock your potential and find the perfect career path.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-bed"></i>
+            <h3>Better Sleep</h3>
+            <p>Relax your mind and get better sleep to achieve your career goals.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-balance-scale"></i>
+            <h3>Work-life balance</h3>
+            <p>Achieve balance and happiness in your professional and personal life.</p>
+        </div>
+    </div>
+    <div class="plans" id="career-plans">
+        <h2>Choose your Career</h2>
+        <div class="plan">
+            <h3>After 10TH</h3>
+            <ul>
+                <li>Career guidance for 10th pass</li>
+                <li>Explore career options based on your skills</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href="after10.html"><button>Get Started</button></a>
+        </div>
+        <div class="plan">
+            <h3>After High School</h3>
+            <ul>
+                <li>Career guidance for intermediate</li>
+                <li>Discover your career path with us</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href="afterhighschool.html"><button>Get Started</button></a>
+        </div>
+        <div class="plan">
+            <h3>After Degree</h3>
+            <ul>
+                <li>Career guidance After Degree</li>
+                <li>Access to our career library</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href="afterdegree.html"><button>Get Started</button></a>
+        </div>
+        <div class="plan">
+            <h3>Medicine</h3>
+            <ul>
+                <li>Career guidance For Medicine</li>
+                <li>Access to our Medical career</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href="medical.html"><button>Get Started</button></a>
+        </div>
+        <div class="plan">
+            <h3>Entrepreneurship</h3>
+            <ul>
+                <li>Career guidance for entrepreneurship</li>
+                <li>Access to our guidance</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href=""><button>Get Started</button></a>
+        </div>
+        <div class="plan">
+            <h3>Arts and Sports</h3>
+            <ul>
+                <li>Career guidance to explore your talents</li>
+                <li>Access to our guidance</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href="Arts.html"><button>Get Started</button></a>
+        </div>
+        <div class="plan">
+            <h3>Skills</h3>
+            <ul>
+                <li>explore various skills we have</li>
+                <li>Improve your skills</li>
+                <li>Join our community of career seekers</li>
+            </ul>
+            <a href="skill.html"><button>Get Started</button></a>
+        </div>
+    </div>
+    <script>
+        function scrollToPlans() {
+            document.getElementById("career-plans").scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

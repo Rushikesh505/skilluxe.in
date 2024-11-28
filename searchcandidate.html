@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Candidates</title>
+    <link rel="stylesheet" href="provider.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>SkillUXE</h1>
+        </div>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="jobpost.html">Post a Job</a>
+            <a href="shortlist.html">Shortlist</a>
+            <a href="analytics.html">Analytics</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Search Candidates</h2>
+        <label for="searchBar">Search by skills or interests:</label>
+        <input type="text" id="searchBar" placeholder="e.g., Data Science, Python">
+        <button id="searchButton">Search</button>
+
+        <div id="searchResults">
+            <!-- Dynamic search results will be displayed here -->
+        </div>
+        <div id="postedJobs">
+            <h3>Posted Jobs</h3>
+            <!-- Jobs will be dynamically inserted here -->
+        </div>
+        
+    </main>
+
+    <script src="provider.js" defer></script>
+</body>
+</html>

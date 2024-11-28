@@ -1,0 +1,477 @@
+$(document).ready(function(){
+    $("h3#one").click(function(q){
+        q.preventDefault();
+        $("#course1").toggle();
+    });
+});
+$(document).ready(function(){
+   $("h3#two").click(function(q){
+       q.preventDefault();
+       $("#course2").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#three").click(function(q){
+       q.preventDefault();
+       $("#course3").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#four").click(function(q){
+       q.preventDefault();
+       $("#course4").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#five").click(function(q){
+       q.preventDefault();
+       $("#course5").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#six").click(function(q){
+       q.preventDefault();
+       $("#course6").toggle();
+   });
+});
+
+$(document).ready(function() {
+    $("#a").click(function(q){
+        q.preventDefault();
+        $("#MBA").toggle();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#b").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").toggle();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#c").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").toggle();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#d").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").toggle();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#e").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").toggle();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#f").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").toggle();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#g").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").toggle();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#h").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").toggle();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#i").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").toggle();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#j").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").toggle();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#k").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").toggle();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#l").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").toggle();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#m").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").toggle();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#n").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").toggle();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#o").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").toggle();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#p").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").toggle();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#q").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").toggle();
+        $('#MA-Journalism').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#r").click(function(q){
+        q.preventDefault();
+        $("#MBA").hide();
+        $("#PGDM").hide();
+        $("#EMBA").hide();
+        $("#CA").hide();
+        $("#CFA").hide();
+        $("#CMA").hide();
+        $("#CPA").hide();
+        $("#MTech").hide();
+        $("#PGDDataScience").hide();
+        $("#PGDAIML").hide();
+        $("#MCA").hide();
+        $("#FullStackDev").hide();
+        $("#Cybersecurity").hide();
+        $("#LLB").hide();
+        $("#LLM").hide();
+        $("#MA-Psychology").hide();
+        $("#MA-Sociology").hide();
+        $('#MA-Journalism').toggle();
+    })
+ })
+
+
+
+$(document).ready(function() {
+   $("#btn6").click(function(){
+      alert("ThankYou for your interest, we'll get back at you shortly");
+      window.location.href="../index.html";
+   })
+})

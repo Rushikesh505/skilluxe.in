@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job</title>
+    <link rel="stylesheet" href="provider.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>SkillUXE</h1>
+        </div>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="searchcandidate.html">Search Candidates</a>
+            <a href="shortlist.html">Shortlist</a>
+            <a href="analytics.html">Analytics</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Post a Job</h2>
+        <form id="postJobForm">
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" required>
+            
+            <label for="jobDescription">Description:</label>
+            <textarea id="jobDescription" rows="5" required></textarea>
+            
+            <label for="requiredSkills">Required Skills:</label>
+            <input type="text" id="requiredSkills" placeholder="e.g., Java, Python" required>
+            
+            <label for="salaryRange">Salary Range:</label>
+            <input type="text" id="salaryRange" placeholder="e.g., $50k-$80k" required>
+            
+            <button type="submit">Post Job</button>
+        </form>
+    </main>
+
+    <script src="provider.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - SkillUXE</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body class="auth-background">
+  <div class="auth-container">
+    <h1>Create Your SkillUXE Account</h1>
+    <form action="register_action.php" method="POST">
+      <input type="text" id="username" class="input-field" placeholder="Username" required>
+      <input type="password" id="password" class="input-field" placeholder="Password" required>
+      <button type="submit" class="button">Register</button>
+	  <p>Already have an account? <a href="signin.html">Log in here</a></p>
+    </form>
+    <p id="registerError" style="color: red; display: none;"></p>
+    <p id="registerSuccess" style="color: green; display: none;">Registration successful! You can now <a href="login.html">log in</a>.</p>
+  </div>
+
+  <script src="register.js"></script>
+</body>
+</html>

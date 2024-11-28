@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #FF4C4C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header Styles */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #FF4C4C;
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Container Styles */
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Form Styles */
+.login-form h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #FF4C4C;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #0f0f0f;
+    color: #fff;
+    font-size: 1em;
+}
+
+.form-group input:focus {
+    border: 1px solid #FF4C4C;
+    outline: none;
+}
+
+/* Button Styles */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF4C4C;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1E90FF;
+}
+
+/* Signup Link */
+.signup-link {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.signup-link a {
+    color: #FF4C4C;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup-link a:hover {
+    color: #1E90FF;
+}

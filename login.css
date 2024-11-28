@@ -1,0 +1,73 @@
+/* General reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  /* Black background for auth pages */
+  .auth-background {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styling for the auth container */
+  .auth-container {
+    background: #131313;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Heading with gradient text */
+  .auth-container h1 {
+    font-size: 2rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Button with gradient */
+  .button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ff0844, #ffb199);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-image: linear-gradient(to right, #4837ff, #21d4fd);
+  }
+  
+  /* Error message */
+  #error {
+    margin-top: 15px;
+    color: red;
+    font-size: 1rem;
+  }
+  

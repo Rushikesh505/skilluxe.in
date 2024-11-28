@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Test</title>
+    <link rel="stylesheet" href="skilltest.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SKILLUXE</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="rankboard.html">Rankboard</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+    <div class="test-container">
+        <h1>Skill Test - <span id="courseTitle"></span></h1>
+        <div id="timer">Time Left: <span id="timeRemaining">60</span> seconds</div>
+        <div id="questionContainer"></div>
+        <button onclick="submitTest()">Submit Test</button>
+        <div id="result" style="display: none;">
+            <p>Your Score: <span id="score"></span></p>
+            <p>Skill Rating: <span id="skillRating"></span> ★</p>
+        </div>
+    </div>
+    <script src="skilltest.js"></script>
+</body>
+</html>

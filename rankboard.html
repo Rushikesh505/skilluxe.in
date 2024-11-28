@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUXE Rank Board</title>
+    <link rel="stylesheet" href="rankboard.css">
+    <script src="rankboard.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>SkillUXE</h1>
+        </div>
+        <nav>
+            <!-- Other navigation items -->
+        </nav>
+    </header>
+
+    <div id="rankBoard">
+        <h2>Rank Board</h2>
+        
+        <!-- Course Filter Dropdown -->
+        <label for="courseFilter">Filter by Course:</label>
+        <select id="courseFilter">
+            <option value="all">All Courses</option>
+            <!-- Add more options here dynamically or statically for each course -->
+        </select>
+
+        <table id="leaderboard">
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Course</th>
+                <th>Score</th>
+                <th>Skill Rating</th>
+            </tr>
+            <!-- Dynamic leaderboard rows will be inserted here -->
+        </table>
+    </div>
+</body>
+</html>

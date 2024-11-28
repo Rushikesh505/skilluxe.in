@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup - SkillUXE</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body class="auth-background">
+  <div class="auth-container">
+    <h1>Create Your SkillUXE Account</h1>
+    <form id="signupForm">
+      <input type="text" id="firstName" class="input-field" placeholder="First Name" required>
+      <input type="text" id="lastName" class="input-field" placeholder="Last Name" required>
+      <input type="email" id="email" class="input-field" placeholder="Email" required>
+      <input type="text" id="signupUsername" class="input-field" placeholder="Username" required>
+      <input type="password" id="signupPassword" class="input-field" placeholder="Password" required>
+      <input type="password" id="confirmPassword" class="input-field" placeholder="Confirm Password" required>
+      <button type="submit" class="button">Sign Up</button>
+      <p>Already have an account? <a href="login.html">Log in here</a></p>
+    </form>
+    <p id="signupError" style="color: red; display: none;"></p>
+    <p id="signupSuccess" style="color: green; display: none;">Signup successful! You can now <a href="login.html">log in</a>.</p>
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+</html>

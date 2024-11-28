@@ -1,0 +1,79 @@
+/* SkillUXE Logo on Top Left */
+#logo {
+    display: flex;
+    align-items: center;
+    background-color: #0f0f0f;
+}
+
+#logo h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #FF4C4C;
+    background-color: #0f0f0f;
+    margin-right: 30px;
+}
+
+/* Rank Board Styles */
+#rankBoard {
+    margin-top: 20px;
+    width: 80%;
+    color: #0c0909;
+    text-align: center;
+}
+
+#rankBoard h2 {
+    font-size: 2em;
+    color: #FF4C4C;
+    margin-bottom: 15px;
+}
+
+#leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#leaderboard th, #leaderboard td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+#leaderboard th {
+    background-color: #161616;
+    color: #FF4C4C;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: #1c1c1c;
+}
+
+#leaderboard tr:hover {
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+#leaderboard td {
+    background-color: #0f0f0f;
+    color: #FFFFFF;  /* Changed to white for better readability */
+}
+
+/* Rank Numbers */
+#leaderboard td:first-child {
+    font-weight: bold;
+    color: #FF4C4C;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #rankBoard h2 {
+        font-size: 1.5em;
+    }
+
+    #leaderboard th, #leaderboard td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}

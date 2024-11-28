@@ -1,0 +1,568 @@
+$(document).ready(function(){
+    $("h3#one").click(function(q){
+        q.preventDefault();
+        $("#course1").toggle();
+    });
+});
+$(document).ready(function(){
+   $("h3#two").click(function(q){
+       q.preventDefault();
+       $("#course2").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#three").click(function(q){
+       q.preventDefault();
+       $("#course3").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#four").click(function(q){
+       q.preventDefault();
+       $("#course4").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#five").click(function(q){
+       q.preventDefault();
+       $("#course5").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#six").click(function(q){
+       q.preventDefault();
+       $("#course6").toggle();
+   });
+});
+
+$(document).ready(function() {
+    $("#a").click(function(q){
+        q.preventDefault();
+        $("#MBBS").toggle();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#b").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").toggle();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#c").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").toggle();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#d").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").toggle();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#e").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").toggle();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ 
+$(document).ready(function() {
+    $("#f").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").toggle();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#g").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").toggle();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#h").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").toggle();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#i").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").toggle();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#j").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").toggle();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+
+ $(document).ready(function() {
+    $("#k").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").toggle();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#l").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").toggle();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#m").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").toggle();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#n").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").toggle();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#o").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").toggle();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+
+ $(document).ready(function() {
+    $("#p").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").toggle();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#q").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").toggle();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#r").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').toggle();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#s").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').toggle();
+        $('#HealthPromotion').hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#t").click(function(q){
+        q.preventDefault();
+        $("#MBBS").hide();
+        $("#MD").hide();
+        $("#MS").hide();
+        $("#BDS").hide();
+        $("#BAMS").hide();
+        $("#Cardiology").hide();
+        $("#Neurology").hide();
+        $("#Pediatrics").hide();
+        $("#Surgery").hide();
+        $("#Psychiatry").hide();
+        $("#BScNursing").hide();
+        $("#Pharmacy").hide();
+        $("#PhysicianAssistant").hide();
+        $("#MedicalLaboratoryTechnology").hide();
+        $("#OccupationalTherapy").hide();
+        $("#MBAHealthcareManagement").hide();
+        $("#MHA").hide();
+        $('#MPH').hide();
+        $('#Epidemiology').hide();
+        $('#HealthPromotion').toggle();
+    })
+ })
+
+
+
+$(document).ready(function() {
+   $("#btn6").click(function(){
+      alert("ThankYou for your interest, we'll get back at you shortly");
+      window.location.href="../index.html";
+   })
+})

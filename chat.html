@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Chat</title>
+    <!-- Link to Chat CSS -->
+    <link rel="stylesheet" href="chat.css">
+    <!-- Link to Chat JavaScript -->
+    <script src="chat.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>SkillUXE</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="chat-page">
+            <!-- Inbox Section -->
+            <aside id="inbox">
+                <h2>Inbox</h2>
+                <ul id="chatList">
+                    <!-- Chat list dynamically populated here -->
+                </ul>
+            </aside>
+
+            <!-- Chat Section -->
+            <section id="chatArea">
+                <div id="chatHeader">
+                    <h3 id="chatWith">Chat with: <span id="recipientName">Select a user</span></h3>
+                </div>
+                <div id="chatContainer">
+                    <!-- Messages dynamically populated here -->
+                </div>
+                <form id="messageForm">
+                    <input type="text" id="messageInput" placeholder="Type your message..." required>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SkillUXE. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

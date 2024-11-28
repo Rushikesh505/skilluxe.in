@@ -1,0 +1,397 @@
+$(document).ready(function(){
+    $("h3#one").click(function(q){
+        q.preventDefault();
+        $("#course1").toggle();
+    });
+});
+$(document).ready(function(){
+   $("h3#two").click(function(q){
+       q.preventDefault();
+       $("#course2").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#three").click(function(q){
+       q.preventDefault();
+       $("#course3").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#four").click(function(q){
+       q.preventDefault();
+       $("#course4").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#five").click(function(q){
+       q.preventDefault();
+       $("#course5").toggle();
+   });
+});
+$(document).ready(function(){
+   $("h3#six").click(function(q){
+       q.preventDefault();
+       $("#course6").toggle();
+   });
+});
+
+
+
+$(document).ready(function() {
+    $("#a").click(function(q){
+        q.preventDefault();
+        $("#MPC").toggle();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#b").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").toggle();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#c").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").toggle();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#d").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").toggle();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+$(document).ready(function() {
+    $("#e").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").toggle();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#f").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").toggle();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#g").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").toggle();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#h").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").toggle();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#i").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").toggle();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#j").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").toggle();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#k").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").toggle();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#l").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").toggle();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#m").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").toggle();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#n").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").toggle();
+        $("#NDA").hide();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#o").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").toggle();
+        $("#AirForce").hide();
+    })
+ })
+
+ $(document).ready(function() {
+    $("#p").click(function(q){
+        q.preventDefault();
+        $("#MPC").hide();
+        $("#BIPC").hide();
+        $("#MBIPC").hide();
+        $("#Pharmacist").hide();
+        $("#MEC").hide();
+        $("#CEC").hide();
+        $("#BEC").hide();
+        $("#HEC").hide();
+        $("#CE").hide();
+        $("#HotelManagement").hide();
+        $("#EventManagement").hide();
+        $("#FashionTechnology").hide();
+        $("#ITI").hide();
+        $("#Polytechnic").hide();
+        $("#NDA").hide();
+        $("#AirForce").toggle();
+    })
+ })
+
+$(document).ready(function() {
+   $("#btn6").click(function(){
+      alert("ThankYou for your interest, we'll get back at you shortly");
+      window.location.href="../index.html";
+   })
+})

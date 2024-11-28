@@ -1,0 +1,253 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF3E0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    margin-top: 60px; /* Adjust for fixed nav */
+    animation: fadeIn 1s ease-in;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #FF5722;
+}
+
+.hero button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #E64A19;
+}
+
+/* Features Section */
+.features {
+    background-color: #FFCCBC;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+}
+
+.features .feature {
+    max-width: 200px;
+    transition: transform 0.3s;
+}
+
+.features .feature:hover {
+    transform: scale(1.05);
+}
+
+.features .feature i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #FF5722;
+}
+
+/* Plans Section */
+.plans {
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+.plans h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #FF5722;
+}
+
+.plans .plan {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 250px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.plans .plan:hover {
+    transform: scale(1.05);
+}
+
+.plans .plan h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FF5722;
+}
+
+.plans .plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plans .plan ul li {
+    margin: 10px 0;
+}
+
+.plans .plan button {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.plans .plan button:hover {
+    background-color: #E64A19;
+}
+
+/* Plan Details */
+.plan-details {
+    display: none;
+    background-color: #FFE0B2;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+.testimonials .testimonial {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 250px;
+    text-align: left;
+}
+
+.testimonials .testimonial img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.testimonials .testimonial .author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #FFCCBC;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer .footer-section {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+}
+
+footer .footer-section h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-section ul li {
+    margin: 5px 0;
+}
+
+footer .footer-section ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plans .plan {
+        max-width: 90%;
+    }
+}

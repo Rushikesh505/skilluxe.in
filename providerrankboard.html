@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUXE Rank Board</title>
+    <link rel="stylesheet" href="rankboard.css">
+    <script src="providerrankboard.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>SkillUXE</h1>
+        </div>
+        <nav>
+            <!-- Navigation links -->
+        </nav>
+    </header>
+
+    <div id="rankBoard">
+        <h2>Rank Board</h2>
+        
+        <!-- Course Filter Dropdown -->
+        <label for="courseFilter">Filter by Course:</label>
+        <select id="courseFilter">
+            <option value="all">All Courses</option>
+            <!-- Add courses dynamically here -->
+        </select>
+
+        <!-- Rank Table -->
+        <table id="leaderboard">
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Course</th>
+                <th>Score</th>
+                <th>Skill Rating</th>
+                <th>Chat</th> <!-- Only for Job Providers -->
+            </tr>
+            <!-- Dynamic leaderboard rows inserted here -->
+        </table>
+    </div>
+
+    <!-- Chat Interface (Visible when Job Provider clicks on User) -->
+    <div id="chatInterface" class="chat-container" style="display: none;">
+        <h3>Chat with <span id="chatUsername"></span></h3>
+        <div id="chatMessages" class="chat-messages"></div>
+        <textarea id="chatInput" placeholder="Type your message..."></textarea>
+        <button id="sendMessageBtn">Send</button>
+        <button id="closeChatBtn">Close Chat</button>
+    </div>
+</body>
+</html>

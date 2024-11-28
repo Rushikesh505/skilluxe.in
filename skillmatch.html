@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillUXE - Refine Job Search</title>
+    <link rel="stylesheet" href="skillmatch.css">
+</head>
+<body>
+    <header>
+        <h1>SKILLUXE</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <button class="profile-btn" onclick="toggleProfileMenu()">Profile</button>
+            
+            <!-- Profile Menu -->
+            <div id="profileMenu" class="profile-menu" style="display: none;">
+                <p id="usernameDisplay">Logged in as: <span id="username"></span></p>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>REFINE JOB SEARCH</h2>
+        <form id="jobSearchForm">
+            <label for="industry">Select Industry</label>
+            <select id="industry" onchange="updateCourseOptions()">
+                <option value="">Select Industry</option>
+                <option value="IT">Information Technology & Software Development</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Finance">Finance & Accounting</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+            
+            <label for="course">Desired Course</label>
+            <select id="course">
+                <option value="">e.g. Python Certification</option>
+            </select>
+            
+            <label for="company">Select Company</label>
+            <input type="text" id="company" placeholder="Microsoft">
+            
+            <div class="experience">
+                <label>Experience Level</label>
+                <button type="button" onclick="selectExperienceLevel('Entry')">Entry Level</button>
+                <button type="button" onclick="selectExperienceLevel('Mid')">Mid Level</button>
+                <button type="button" onclick="selectExperienceLevel('Senior')">Senior Level</button>
+            </div>
+            
+            <div class="employment">
+                <label>Employment</label>
+                <button type="button" onclick="toggleEmployment('Full-time')">Full-time</button>
+                <button type="button" onclick="toggleEmployment('Part-time')">Part-time</button>
+                <button type="button" onclick="toggleEmployment('Remote')">Remote Work</button>
+                <button type="button" onclick="toggleEmployment('Freelance')">Freelance</button>
+                <button type="button" onclick="toggleEmployment('Internship')">Internship</button>
+            </div>
+            
+            <button type="button" class="submit-btn" onclick="startTest()">Take Test to Get Skill Rating</button>
+        </form>
+    </main>
+
+    <div id="testContainer" style="display: none;">
+        <h2>Skill Test</h2>
+        <div id="questionContainer"></div>
+        <p id="timer">Time Left: <span id="timeRemaining"></span></p>
+        <button onclick="nextQuestion()">Next Question</button>
+    </div>
+    
+    <script src="skillmatch.js"></script>
+</body>
+</html>
